@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\moogi\\.nuget\\packages\\": {}
+    "C:\\Users\\051686\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moogi\\RiderProjects\\soft-arch\\soft-arch-encapsulation-cs\\soft-arch-encapsulation\\soft-arch-encapsulation.csproj",
+      "projectUniqueName": "C:\\Users\\051686\\RiderProjects\\employee-encapsulation-cs-mcclain113\\soft-arch-encapsulation\\soft-arch-encapsulation.csproj",
       "projectName": "soft-arch-encapsulation",
-      "projectPath": "C:\\Users\\moogi\\RiderProjects\\soft-arch\\soft-arch-encapsulation-cs\\soft-arch-encapsulation\\soft-arch-encapsulation.csproj",
-      "packagesPath": "C:\\Users\\moogi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moogi\\RiderProjects\\soft-arch\\soft-arch-encapsulation-cs\\soft-arch-encapsulation\\obj\\",
+      "projectPath": "C:\\Users\\051686\\RiderProjects\\employee-encapsulation-cs-mcclain113\\soft-arch-encapsulation\\soft-arch-encapsulation.csproj",
+      "packagesPath": "C:\\Users\\051686\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\051686\\RiderProjects\\employee-encapsulation-cs-mcclain113\\soft-arch-encapsulation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\moogi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\051686\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,16 +51,35 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
